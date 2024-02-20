@@ -3,15 +3,20 @@
     "maintainer": "jfdona23",
     "manufacturer": "jfdona23",
     "url": "https://jfdonadio.com",
+    "usb": {
+        "vid": "0x03EB",
+        "pid": "0x2042",
+        "device_version": "0.0.1"
+    },
     "development_board": "promicro",
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "matrix_pins": {
         "cols": ["F4", "F5", "F6"],
-        "row": ["D1", "D4", "D0"]
+        "rows": ["D1", "D4", "D0"]
     },
     "layouts": {
-        "LAYOUT_3x3": {
+        "LAYOUT": {
             "layout": [
                 { "matrix": [0, 0], "x": 0, "y": 0 },
                 { "matrix": [0, 1], "x": 1, "y": 0 },
