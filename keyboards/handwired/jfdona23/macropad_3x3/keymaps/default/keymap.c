@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		MAC_SCRN_CP,	MAC_LCK,	LT(1,KC_NO)
 		),
 	[1] = LAYOUT(
-		UPDTHOST,	______,		______,
+		UPDTHOST,	VSCODE,		______,
 		______,		______,		______,
 		______,		______,		KC_TRNS
 		)
