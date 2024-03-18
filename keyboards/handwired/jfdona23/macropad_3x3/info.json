@@ -12,8 +12,8 @@
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["F4", "F5", "F6"],
-        "rows": ["D1", "D4", "D0"]
+        "cols": ["D1", "D0", "D4"],
+        "rows": ["F4", "F5", "F6"]
     },
     "layouts": {
         "LAYOUT": {
