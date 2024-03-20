@@ -40,7 +40,7 @@ enum custom_keycodes {
 				"Terminal" \
 				SS_DELAY(100) \
 				SS_TAP(X_ENT) \
-				SS_DELAY(50) 
+				SS_DELAY(100) 
 
 bool process_record_user(uint16_t keycode, keyrecord_t* record) {
 	switch (keycode) {
@@ -92,7 +92,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[0] = LAYOUT(
 		MAC_COPY,		MAC_PASTE,	MAC_CUT,
 		KC_VOLD,		KC_MUTE,	KC_VOLU,
-		MAC_SCRN_CP,	MAC_LCK,	LT(1,KC_NO)
+		MAC_SCRN_CP,	MAC_LCK,	LT(1,KC_ESC)
 		),
 	[1] = LAYOUT(
 		UPDTHOST,	VSCODE,		______,
